@@ -53,6 +53,15 @@
       },
       "versions": [
         {
+          "version": "0.9.1",
+          "buildVersion": "3.2",
+          "date": "2026-10-05T08:02:48Z",
+          "localizedDescription": "Update Russian translation, bump version to 0.9.1",
+          "downloadURL": "https://github.com/remmody/Aidoku/releases/download/v0.9.1-build.2/Aidoku.ipa",
+          "size": 11686437,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.9",
           "buildVersion": "3.1",
           "date": "2026-10-05T04:51:08Z",
