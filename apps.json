@@ -1,0 +1,68 @@
+{
+  "name": "Aidoku (remmody)",
+  "identifier": "app.aidoku.altstore.remmody",
+  "sourceURL": "https://raw.githubusercontent.com/remmody/Aidoku/refs/heads/altstore/apps.json",
+  "subtitle": "Aidoku builds from the remmody/Aidoku fork",
+  "description": "This is the AltStore Source for Aidoku, free and open source manga reader for iOS and iPadOS.\n\nFor full details on what's included, check the website: https://aidoku.app/",
+  "website": "https://aidoku.app/",
+  "featuredApps": [
+    "app.aidoku.Aidoku"
+  ],
+  "apps": [
+    {
+      "name": "Aidoku",
+      "bundleIdentifier": "app.aidoku.Aidoku",
+      "developerName": "Skitty",
+      "subtitle": "Free and open source manga reader for iOS and iPadOS",
+      "localizedDescription": "A free and open source manga reading application for iOS and iPadOS.",
+      "iconURL": "https://aidoku.app/images/apple-touch-icon.png",
+      "tintColor": "ff375f",
+      "category": "entertainment",
+      "screenshots": [
+        {
+          "imageURL": "https://aidoku.app/images/library.png",
+          "width": 450,
+          "height": 908
+        },
+        {
+          "imageURL": "https://aidoku.app/images/source.png",
+          "width": 450,
+          "height": 908
+        },
+        {
+          "imageURL": "https://aidoku.app/images/reader.png",
+          "width": 450,
+          "height": 908
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "aps-environment",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.user-fonts"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Aidoku needs FaceID permissions for user-defined settings",
+          "NSPhotoLibraryUsageDescription": "Aidoku needs permission to save pages in your photo library",
+          "NSLocalNetworkUsageDescription": "Aidoku needs permission to connect to local Komga servers"
+        }
+      },
+      "versions": [
+        {
+          "version": "0.9",
+          "buildVersion": "3.1",
+          "date": "2026-10-05T04:51:08Z",
+          "localizedDescription": "ci: build fork ipa, publish release and AltStore source",
+          "downloadURL": "https://github.com/remmody/Aidoku/releases/download/v0.9-build.1/Aidoku.ipa",
+          "size": 11689267,
+          "minOSVersion": "15.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
